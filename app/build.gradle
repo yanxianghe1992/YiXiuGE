@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.yxh.yixiuge"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+    //快速findviewbyid        butterknife
+    compile 'com.jakewharton:butterknife:7.0.1'
+    //解析Json                fastjson
+    compile 'com.alibaba:fastjson:1.2.24'
+    //xutils工具
+    compile 'org.xutils:xutils:3.3.40'
+    //鲁班压缩图片
+    compile 'top.zibin:Luban:1.0.9'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    //图片选择器             Galleryfinal
+    compile 'cn.finalteam:galleryfinal:1.4.8.7'
+    //图片轮播              banner
+    compile 'com.youth.banner:banner:1.4.9'
+    //级别选择器             PickerView
+    compile 'com.contrarywind:Android-PickerView:3.2.4'
+}
