@@ -42,4 +42,6 @@ dependencies {
     compile 'com.youth.banner:banner:1.4.9'
     //级别选择器             PickerView
     compile 'com.contrarywind:Android-PickerView:3.2.4'
+    //友盟
+    compile 'com.umeng.analytics:analytics:latest.integration'
 }
