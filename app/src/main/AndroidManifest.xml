@@ -9,12 +9,24 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.PhoneRepairActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.ApplianceRepairActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.CompterRepairActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
 
         <!-- 友盟密匙 -->

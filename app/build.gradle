@@ -44,4 +44,7 @@ dependencies {
     compile 'com.contrarywind:Android-PickerView:3.2.4'
     //友盟
     compile 'com.umeng.analytics:analytics:latest.integration'
+    //gilide   图片加载器
+    compile group: 'com.github.bumptech.glide', name: 'glide', version: '3.7.0'
+
 }
