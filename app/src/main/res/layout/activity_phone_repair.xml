@@ -177,6 +177,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
         android:background="@mipmap/u134"
         android:text="确认" />
 </LinearLayout>
