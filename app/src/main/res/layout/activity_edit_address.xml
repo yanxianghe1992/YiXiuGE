@@ -13,7 +13,7 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp"
         app:leftSrc="@mipmap/fanhuilv"
-        app:titleText="家电维修"></com.yxh.yixiuge.MyTopBar>
+        app:titleText="编辑地址"></com.yxh.yixiuge.MyTopBar>
 
     <include
         layout="@layout/include_title_line"
@@ -32,25 +32,53 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="品牌"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="40dp"
             android:layout_marginLeft="20dp"
-            android:background="#00cccc" />
+            android:text="姓名"
+            android:textSize="22dp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="请选择您的家电品牌"
+            android:text="请选择您的服务时间"
+            android:textColor="#bcbcbc"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="手机号"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="13874678412"
             android:textSize="20dp" />
 
         <ImageView
@@ -71,151 +99,56 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp">
 
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="类型"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="40dp"
             android:layout_marginLeft="20dp"
-            android:background="#00cccc" />
+            android:text="详细地址"
+            android:textSize="22dp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="请选择您的家电类型"
+            android:text="请选择您的详细地址"
+            android:textColor="#bcbcbc"
             android:textSize="20dp" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/jinruhui" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:background="#fff"
         android:gravity="center_vertical"
-        android:paddingBottom="10dp"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp">
+        android:paddingRight="20dp">
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="型号"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="40dp"
             android:layout_marginLeft="20dp"
-            android:background="#00cccc" />
+            android:text="设为默认"
+            android:textSize="22dp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="请选择您的家电型号"
+            android:textColor="#bcbcbc"
             android:textSize="20dp" />
 
-        <ImageView
+        <ToggleButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/jinruhui" />
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        android:background="#fff"
-        android:gravity="center_vertical"
-        android:paddingBottom="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="故障"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="20dp"
-            android:background="#00cccc" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_weight="1"
-            android:text="请选择您的家电故障点"
-            android:textSize="20dp" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/jinruhui" />
-    </LinearLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#fff"
-        android:gravity="center_vertical"
-        android:hint="请对您家电的故障进行简单的描述"
-        android:padding="20dp"
-        android:textSize="18dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="#fff"
-        android:padding="10dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/u123"
-            android:gravity="center"
-            android:padding="10dp">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/u130"
-                android:padding="10dp"
-                android:src="@mipmap/u132" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:background="@mipmap/u134"
-        android:text="确认"
-        android:textColor="#fff"
-        android:textSize="20dp" />
 </LinearLayout>

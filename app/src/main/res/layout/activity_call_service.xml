@@ -13,7 +13,7 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp"
         app:leftSrc="@mipmap/fanhuilv"
-        app:titleText="手机维修"></com.yxh.yixiuge.MyTopBar>
+        app:titleText="呼叫服务"></com.yxh.yixiuge.MyTopBar>
 
     <include
         layout="@layout/include_title_line"
@@ -32,12 +32,10 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="品牌"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/u320" />
 
         <TextView
             android:layout_width="1dp"
@@ -50,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="请选择您的手机品牌"
+            android:text="请选择您的服务时间"
             android:textSize="20dp" />
 
         <ImageView
@@ -71,17 +69,16 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="型号"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="6dp"
+            android:src="@mipmap/u322" />
 
         <TextView
             android:layout_width="1dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="24dp"
             android:background="#00cccc" />
 
         <TextView
@@ -89,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="请选择您的手机型号"
+            android:text="请选择您的服务地址"
             android:textSize="20dp" />
 
         <ImageView
@@ -98,77 +95,6 @@
             android:src="@mipmap/jinruhui" />
     </LinearLayout>
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        android:background="#fff"
-        android:gravity="center_vertical"
-        android:paddingBottom="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="故障"
-            android:textColor="#bb000000"
-            android:textSize="22dp" />
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="20dp"
-            android:background="#00cccc" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_weight="1"
-            android:text="请选择您的手机故障点"
-            android:textSize="20dp" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/jinruhui" />
-    </LinearLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:gravity="center_vertical"
-        android:hint="请对您的手机故障进行简单的描述"
-        android:padding="20dp"
-        android:textSize="18dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="#fff"
-        android:padding="10dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/u123"
-            android:gravity="center"
-            android:padding="10dp">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/u130"
-                android:padding="10dp"
-                android:src="@mipmap/u132" />
-        </LinearLayout>
-    </LinearLayout>
 
     <Button
         android:layout_width="300dp"
