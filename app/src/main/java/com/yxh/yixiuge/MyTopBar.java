@@ -38,7 +38,7 @@ public class MyTopBar extends RelativeLayout {
         titleText = td.getString(R.styleable.MyTopBar_titleText);
         rightText = td.getString(R.styleable.MyTopBar_rightText);
         leftSrc = td.getDrawable(R.styleable.MyTopBar_leftSrc);
-        textColor = td.getColor(R.styleable.MyTopBar_textColor, Color.parseColor("#7fe4e4"));
+        textColor = td.getColor(R.styleable.MyTopBar_textColor, Color.parseColor("#00cccc"));
 
         //创建控件
         title = new TextView(context);
@@ -53,12 +53,11 @@ public class MyTopBar extends RelativeLayout {
         title.setGravity(CENTER_VERTICAL);
         //right
         right.setText(rightText);
-        right.setTextSize(20.00f);
+        right.setTextSize(16.00f);
         right.setTextColor(textColor);
         right.setGravity(CENTER_VERTICAL);
         //left
         left.setImageDrawable(leftSrc);
-
         //加入并设置控件位置
         LayoutParams titleParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         titleParams.addRule(RelativeLayout.CENTER_IN_PARENT); //中间位置
@@ -73,7 +72,7 @@ public class MyTopBar extends RelativeLayout {
         rightParams.addRule(ALIGN_PARENT_RIGHT); //右侧位置
         rightParams.addRule(CENTER_VERTICAL); //右侧位置
         addView(right, rightParams);
-
+        this.setBackgroundColor(Color.parseColor("#ffffff"));
 
     }
 

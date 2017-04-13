@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/title"
     android:orientation="vertical">
 
 
@@ -27,7 +28,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="哈尔滨"
-                android:textColor="#7fe4e4"
+                android:textColor="#00cccc"
                 android:textSize="20sp" />
             >
 
@@ -37,7 +38,7 @@
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:text="一修哥"
-                android:textColor="#7fe4e4"
+                android:textColor="#00cccc"
                 android:textSize="25sp" />
 
             <ImageView

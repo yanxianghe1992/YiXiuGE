@@ -9,10 +9,9 @@
     </style>
 
 
-    <!--标题文字颜色-->
+    <!--页面背景颜色-->
     <style name="title">
-        <item name="android:textSize">22sp</item>
-        <item name="android:textColor">#7fe4e4</item>
+        <item name="android:background">@mipmap/u4</item>
     </style>
 
 
