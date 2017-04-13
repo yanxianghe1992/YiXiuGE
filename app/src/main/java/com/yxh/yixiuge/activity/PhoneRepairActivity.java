@@ -13,6 +13,6 @@ public class PhoneRepairActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phone_repair);
+        setContentView(R.layout.activity_repair_phone);
     }
 }

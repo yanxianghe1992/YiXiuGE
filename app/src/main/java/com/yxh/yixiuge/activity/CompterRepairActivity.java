@@ -12,6 +12,6 @@ public class CompterRepairActivity extends ApplianceRepairActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_compter_repair);
+        setContentView(R.layout.activity_repair_compter);
     }
 }
