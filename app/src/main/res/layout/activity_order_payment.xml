@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:text="600"
                     android:textColor="#ff6633"
-                    android:textSize="25dp"
+                    android:textSize="28sp"
 
                     />
 
@@ -90,6 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" 元"
+                    android:textSize="18sp"
                     android:textColor="#ff6633" />
             </LinearLayout>
 

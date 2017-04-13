@@ -85,9 +85,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:textColor="#fff"
-            android:textSize="20sp"
+            android:background="@mipmap/u2513"
             android:text="提交评价"
-            android:background="@mipmap/u2513" />
+            android:textColor="#fff"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
