@@ -16,15 +16,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.PhoneRepairActivity"
+            android:name=".activity.RepairPhoneActivity"
             android:configChanges="keyboardHidden|orientation|navigation"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
-            android:name=".activity.ApplianceRepairActivity"
+            android:name=".activity.RepairApplianceActivity"
             android:configChanges="keyboardHidden|orientation|navigation"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
-            android:name=".activity.CompterRepairActivity"
+            android:name=".activity.RepairCompterActivity"
             android:configChanges="keyboardHidden|orientation|navigation"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 

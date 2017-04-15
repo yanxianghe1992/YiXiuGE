@@ -38,15 +38,15 @@ public class HomeActivity extends BaseActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.home_ll_mobile:
-                intent = new Intent(this, PhoneRepairActivity.class);
+                intent = new Intent(this, RepairPhoneActivity.class);
                 startActivity(intent);
                 break;
             case R.id.home_ll_computer:
-                intent = new Intent(this, CompterRepairActivity.class);
+                intent = new Intent(this, RepairCompterActivity.class);
                 startActivity(intent);
                 break;
             case R.id.home_ll_appliance:
-                intent = new Intent(this, ApplianceRepairActivity.class);
+                intent = new Intent(this, RepairApplianceActivity.class);
                 startActivity(intent);
                 break;
         }

@@ -9,10 +9,10 @@ import com.yxh.yixiuge.base.BaseActivity;
  * Created by zykj on 2017/4/11.
  */
 
-public class PhoneRepairActivity extends BaseActivity {
+public class RepairApplianceActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_repair_phone);
+        setContentView(R.layout.activity_repair_appliance);
     }
 }
