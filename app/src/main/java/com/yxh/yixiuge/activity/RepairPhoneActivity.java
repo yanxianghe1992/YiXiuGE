@@ -64,7 +64,6 @@ public class RepairPhoneActivity extends BaseActivity {
         adapter.setOnItemClickL(new PictureAdapter.OnItemClickL() {
             @Override
             public void onClick(PictureAdapter.MyViewHodler holder, int pos) {
-                Toast.makeText(RepairPhoneActivity.this, "" + pos, Toast.LENGTH_SHORT).show();
                 if ((pos + 1) == list.size()) {
                     GalleryFinal.openGalleryMuti(REQUEST_CODE_GALLERY, 1024, new GalleryFinal.OnHanlderResultCallback() {
                         @Override

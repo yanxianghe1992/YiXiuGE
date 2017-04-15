@@ -24,7 +24,7 @@ public class MyApplication extends Application {
         //初始化xutils
         x.Ext.init(this);
 
-        //  配置gallery final
+        // 配置gallery final
         //设置主题
         //ThemeConfig.CYAN
         ThemeConfig theme = new ThemeConfig.Builder()

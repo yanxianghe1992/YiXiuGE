@@ -178,9 +178,7 @@
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/repair_phone_rv_picture"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
             </LinearLayout>
 
@@ -189,6 +187,7 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
                 android:layout_marginTop="15dp"
                 android:background="@mipmap/u134"
                 android:text="确认"
