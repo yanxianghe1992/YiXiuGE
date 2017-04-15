@@ -14,7 +14,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class HomeActivity extends BaseActivity {
-
     @Bind(R.id.home_banner)
     Banner homeBanner;
     @Bind(R.id.home_ll_mobile)
@@ -30,9 +29,7 @@ public class HomeActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
-
     }
-
 
     @OnClick({R.id.home_ll_mobile, R.id.home_ll_computer, R.id.home_ll_appliance})
     public void onViewClicked(View view) {
