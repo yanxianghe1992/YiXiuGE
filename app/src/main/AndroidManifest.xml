@@ -27,7 +27,14 @@
             android:name=".activity.RepairCompterActivity"
             android:configChanges="keyboardHidden|orientation|navigation"
             android:windowSoftInputMode="adjustResize|stateHidden" />
-
+        <activity
+            android:name=".activity.PersonalCenterActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.CallServiceActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- 友盟密匙 -->
         <meta-data

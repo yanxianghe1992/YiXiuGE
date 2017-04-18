@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/title"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/title"
     android:orientation="vertical">
 
     <com.yxh.yixiuge.MyTopBar
@@ -22,6 +22,7 @@
         android:layout_height="wrap_content" />
 
     <LinearLayout
+        android:id="@+id/call_service_ll_time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -44,6 +45,7 @@
             android:background="#00cccc" />
 
         <TextView
+            android:id="@+id/call_service_tv_time"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -58,6 +60,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/call_service_ll_adress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -82,6 +85,7 @@
             android:background="#00cccc" />
 
         <TextView
+            android:id="@+id/call_service_tv_adress"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -97,6 +101,7 @@
 
 
     <Button
+        android:id="@+id/call_service_bt_queren"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

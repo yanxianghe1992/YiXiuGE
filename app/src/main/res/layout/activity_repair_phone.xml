@@ -61,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:paddingRight="20dp"
                     android:text="请选择您的手机品牌"
                     android:textSize="20dp" />
 
@@ -102,6 +103,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:paddingRight="20dp"
                     android:text="请选择您的手机型号"
                     android:textSize="20dp" />
 
@@ -144,6 +146,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:paddingRight="20dp"
                     android:text="请选择您的手机故障点"
                     android:textSize="20dp" />
 

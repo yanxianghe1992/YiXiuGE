@@ -59,11 +59,10 @@
                     android:id="@+id/repair_computer_tv_pinpai"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:text="联想"
-                    android:textColor="#00cccc"
+                    android:paddingRight="20dp"
+                    android:text="请选择您的电脑品牌"
                     android:textSize="20dp" />
 
                 <ImageView
@@ -102,11 +101,10 @@
                     android:id="@+id/repair_computer_tv_leixing"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:text="笔记本"
-                    android:textColor="#00cccc"
+                    android:paddingRight="20dp"
+                    android:text="请选择您的电脑类型"
                     android:textSize="20dp" />
 
                 <ImageView
@@ -145,11 +143,10 @@
                     android:id="@+id/repair_computer_tv_xinghao"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:text="Y460A-ITH"
-                    android:textColor="#00cccc"
+                    android:paddingRight="20dp"
+                    android:text="请选择您的电脑型号"
                     android:textSize="20dp" />
 
                 <ImageView
@@ -189,11 +186,10 @@
                     android:id="@+id/repair_computer_tv_guzhang"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:text="主板"
-                    android:textColor="#00cccc"
+                    android:paddingRight="20dp"
+                    android:text="请选择您的电脑故障"
                     android:textSize="20dp" />
 
                 <ImageView
@@ -210,7 +206,6 @@
                 android:gravity="center_vertical"
                 android:hint="请对您的手机故障进行简单的描述"
                 android:padding="20dp"
-                android:text="开机进不去系统，黑屏白字"
                 android:textSize="18dp" />
 
             <LinearLayout

@@ -28,8 +28,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     //快速findviewbyid        butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
-    //解析Json                fastjson
-    compile 'com.alibaba:fastjson:1.2.24'
     //xutils工具
     compile 'org.xutils:xutils:3.3.40'
     //鲁班压缩图片
@@ -48,4 +46,8 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     //recyclerview
     compile 'com.android.support:recyclerview-v7:25.1.0'
+    //解析Json                fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.31'
+    //DiaogUtil
+    compile 'com.github.hss01248:DialogUtil:1.0.7'
 }

@@ -13,7 +13,7 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp"
         app:leftSrc="@mipmap/fanhuilv"
-        app:titleText="手机维修"></com.yxh.yixiuge.MyTopBar>
+        app:titleText="一修哥咨询"></com.yxh.yixiuge.MyTopBar>
 
     <include
         layout="@layout/include_title_line"

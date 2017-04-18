@@ -3,6 +3,7 @@ package com.yxh.yixiuge.app;
 import android.app.Application;
 
 import com.yxh.yixiuge.imageloader.GalleryFinalImageLoader;
+import com.yxh.yixiuge.utils.Y;
 
 import org.xutils.x;
 
@@ -20,10 +21,8 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        //初始化xutils
-        x.Ext.init(this);
-
+        Y.context = this;//初始化工具类上下文
+        x.Ext.init(this); //初始化xutils
         // 配置gallery final
         //设置主题
         //ThemeConfig.CYAN
