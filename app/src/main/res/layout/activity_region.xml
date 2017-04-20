@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.yxh.yixiuge.MyTopBar
+    <com.yxh.yixiuge.utils.MyTopBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="10dp"
@@ -14,7 +14,7 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp"
         app:leftSrc="@mipmap/fanhuilv"
-        app:titleText="地区"></com.yxh.yixiuge.MyTopBar>
+        app:titleText="地区"></com.yxh.yixiuge.utils.MyTopBar>
 
     <include
         layout="@layout/include_title_line"

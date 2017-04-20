@@ -1,4 +1,4 @@
-package com.yxh.yixiuge;
+package com.yxh.yixiuge.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.yxh.yixiuge.R;
 
 /**
  * Created by zykj on 2017/4/11.

@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.youth.banner.Banner;
 import com.yxh.yixiuge.R;
 import com.yxh.yixiuge.base.BaseActivity;
 import com.yxh.yixiuge.imageloader.GlideImageLoader;
+import com.yxh.yixiuge.utils.OptionsPicke;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +31,8 @@ public class HomeActivity extends BaseActivity {
     LinearLayout homeLlAppliance;
     @Bind(R.id.home_iv_person)
     ImageView homeIvPerson;
+    @Bind(R.id.home_tv_city)
+    TextView homeTvCity;
     private Intent intent;
     private List images = new ArrayList();
 
@@ -48,7 +52,7 @@ public class HomeActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.home_ll_mobile, R.id.home_ll_computer, R.id.home_ll_appliance, R.id.home_iv_person})
+    @OnClick({R.id.home_ll_mobile, R.id.home_ll_computer, R.id.home_ll_appliance, R.id.home_iv_person, R.id.home_tv_city})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.home_ll_mobile:
@@ -66,6 +70,15 @@ public class HomeActivity extends BaseActivity {
             case R.id.home_iv_person:
                 intent = new Intent(this, PersonalCenterActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.home_tv_city:
+                OptionsPicke picke = new OptionsPicke();
+                picke.showOptionsPicke(this, new OptionsPicke.OptionsSelectListener() {
+                    @Override
+                    public void selectListener(String province, String city, String district) {
+                        homeTvCity.setText(city);
+                    }
+                });
                 break;
         }
     }
