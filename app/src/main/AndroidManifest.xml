@@ -35,11 +35,19 @@
             android:name=".activity.CallServiceActivity"
             android:configChanges="keyboardHidden|orientation|navigation"
             android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.AddressManagementActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- 友盟密匙 -->
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="58e89472b27b0a2722001025" />
+        <!-- 百度地图密匙 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Vg9axwB9eUdDwuTqwNdym0NErB4cmUp0" />
 
     </application>
 

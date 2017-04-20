@@ -1,5 +1,6 @@
 package com.yxh.yixiuge.activity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -71,9 +72,9 @@ public class CallServiceActivity extends BaseActivity {
                 strs1.add("明天");
                 strs1.add("后天");
                 List<List<String>> strs2 = new ArrayList<List<String>>();
-                List<String>l1=new ArrayList<>();
-                List<String>l2=new ArrayList<>();
-                List<String>l3=new ArrayList<>();
+                List<String> l1 = new ArrayList<>();
+                List<String> l2 = new ArrayList<>();
+                List<String> l3 = new ArrayList<>();
                 for (int i = 0; i <= 24; i++) {
                     l1.add(i + "点");
                     l2.add(i + "点");
@@ -92,6 +93,8 @@ public class CallServiceActivity extends BaseActivity {
                 opv.show();
                 break;
             case R.id.call_service_ll_adress:
+                Intent intent = new Intent(this, AddressManagementActivity.class);
+                startActivity(intent);
                 break;
             case R.id.call_service_bt_queren:
                 break;
